@@ -14,4 +14,4 @@ The idea on how to convert an image from black white to a color image can be bro
 - [ ] Train AutoEncoder with Fusion of Pretrained Model
 - [ ] Train pix2pix(GAN) model for more accurate results
 - [ ] Add metrics specified [here](https://arxiv.org/pdf/2008.10774.pdf)
-- [ ] If time is available move to specified deployment architecture for deployment
+- [ ] If time is available move to deployment architecture (FAST API)
