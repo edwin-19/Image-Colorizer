@@ -11,7 +11,14 @@ The idea on how to convert an image from black white to a color image can be bro
 6) Convert Lab Image to RGB again to get back a colorize image
 
 # ToDO
-- [ ] Train AutoEncoder with Fusion of Pretrained Model
+- [x] Train AutoEncoder with Fusion of Pretrained Model
+- [x] Add metrics specified [here](https://arxiv.org/pdf/2008.10774.pdf)
+- [x] Inference script for all models
 - [ ] Train pix2pix(GAN) model for more accurate results
-- [ ] Add metrics specified [here](https://arxiv.org/pdf/2008.10774.pdf)
+- [ ] Use pytorch metrics for image quality assements
 - [ ] If time is available move to deployment architecture (FAST API)
+
+# Notes
+- As of the current available models pretrained model with autoencoder seems to have better results
+- Previously though of metrics where eyeballing is unavoidable has changed a bit
+- Need to switch to pytorch for gan model as seems easier to read for now
