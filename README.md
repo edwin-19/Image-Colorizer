@@ -15,7 +15,7 @@ The idea on how to convert an image from black white to a color image can be bro
 - [x] Add metrics specified [here](https://arxiv.org/pdf/2008.10774.pdf)
 - [x] Inference script for all models
 - [x] Train pix2pix(GAN) model for more accurate results
-- [ ] Train with dynamic unet for pix2pix
+- [x] Train with dynamic unet for pix2pix
 - [ ] Use pytorch metrics for image quality assements
 - [ ] If time is available move to deployment architecture (FAST API)
 
