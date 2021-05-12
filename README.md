@@ -7,7 +7,7 @@ First install the neccessary libraries
 pip install -r requirements.txt
 ```
 
-Run script
+Download the model and run script
 ```python
 python demo_autoencoder.py -p -m model/effnet_colorizer.h5 -i data/path/to/image
 ```
@@ -60,3 +60,10 @@ You can download the models trained here
 |--------------------|-------------|
 | Pix2pix - Resnet18 | 0.7836      |
 |                    |             |
+
+# References
+The following repos were based off these guides
+- https://emilwallner.medium.com/colorize-b-w-photos-with-a-100-line-neural-network-53d9b4449f8d
+- https://nbviewer.jupyter.org/github/moein-shariatnia/Deep-Learning/blob/main/Image%20Colorization%20Tutorial/Image%20Colorization%20with%20U-Net%20and%20GAN%20Tutorial.ipynb
+- https://github.com/emilwallner/Coloring-greyscale-images
+- https://towardsdatascience.com/u-net-deep-learning-colourisation-of-greyscale-images-ee6c1c61aabe
