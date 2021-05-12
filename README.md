@@ -26,7 +26,7 @@ The idea on how to convert an image from black white to a color image can be bro
 
 # ToDO Clean Up
 - [x] Upload model
-- [x] Requirements txt
+- [ ] Requirements txt
 - [ ] Write out findings
 - [ ] Try to move to specified architecture using nvidia triton
 - [ ] Move preporcessing with a model instead of code 
@@ -39,7 +39,13 @@ The idea on how to convert an image from black white to a color image can be bro
 
 # Models
 You can download the models trained here
-
+| Model Name                | Backbone         | Drive Link                                                                                 |
+|---------------------------|------------------|--------------------------------------------------------------------------------------------|
+| Simple AutoEncoder        | None             | [here](https://drive.google.com/file/d/1E9eRsd1rS2hMTbU9viQD46bTthgGvC01/view?usp=sharing) |
+| EffNet Autoencoder        | Efficient Net B3 | [here](https://drive.google.com/file/d/1ChfDyZmpxAGnZTR-WVbYrnzqiPPRBZL0/view?usp=sharing) |
+| Pix2Pix Generator         | None             | [here](https://drive.google.com/file/d/1ddiqpt8knH5rCFqXrOXlOz7Mweq5KI2S/view?usp=sharing) |
+| Unet Pretrained Generator | Resnet 18        | [here](https://drive.google.com/file/d/12IKcMlcCghat8qTbemQLNtEDGKLrlatF/view?usp=sharing) |
+| Unet Finetuned Generator  | Resnet 18        | [here](https://drive.google.com/file/d/1VfZJb5iKdxG4_udOslEJvpWAZUnagQts/view?usp=sharing) |
 
 # Evaluation Score
 | Model              | DISTS Score |
