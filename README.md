@@ -26,6 +26,8 @@ The idea on how to convert an image from black white to a color image can be bro
 5) Create empty image and add L image and ab image to form a complete Lab Image
 6) Convert Lab Image to RGB again to get back a colorize image
 
+# Results
+
 # ToDO
 - [x] Train AutoEncoder with Fusion of Pretrained Model
 - [x] Add metrics specified [here](https://arxiv.org/pdf/2008.10774.pdf)
