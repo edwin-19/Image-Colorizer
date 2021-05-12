@@ -27,7 +27,7 @@ The idea on how to convert an image from black white to a color image can be bro
 6) Convert Lab Image to RGB again to get back a colorize image
 
 # Results
-![image_results](https://github.com/edwin-19/Image-Colorizer/blob/master/results/results.jpg)
+![image_results](https://github.com/edwin-19/Image-Colorizer/blob/master/results/results.jpg?raw=true)
 
 # ToDO
 - [x] Train AutoEncoder with Fusion of Pretrained Model
