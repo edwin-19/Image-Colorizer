@@ -23,3 +23,9 @@ The idea on how to convert an image from black white to a color image can be bro
 - As of the current available models pretrained model with autoencoder seems to have better results
 - Previously though of metrics where eyeballing is unavoidable has changed a bit
 - Need to switch to pytorch for gan model as seems easier to read for now
+
+# Evaluation Score
+| Model   | DISTS Score |
+|---------|-------------|
+| Pix2pix | 0.7836      |
+|         |             |
