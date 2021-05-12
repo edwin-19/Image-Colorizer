@@ -2,7 +2,10 @@
 A project to color a black and white image to color using deep learning
 
 # How to run
-
+First install the neccessary libraries
+```python
+pip install -r requirements.txt
+```
 
 # Intution 
 The idea on how to convert an image from black white to a color image can be broken down to the following steps:
@@ -25,8 +28,8 @@ The idea on how to convert an image from black white to a color image can be bro
 - [x] If time is available move to deployment architecture (FAST API)
 
 # ToDO Clean Up
-- [x] Upload model
-- [ ] Requirements txt
+- [x] Upload model drive download links
+- [x] Requirements txt
 - [ ] Write out findings
 - [ ] Try to move to specified architecture using nvidia triton
 - [ ] Move preporcessing with a model instead of code 

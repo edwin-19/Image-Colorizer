@@ -1,0 +1,15 @@
+onnxruntime-gpu
+torch==1.7.1
+torchvision==0.8.2
+tensorflow-gpu==2.3.0
+opencv-python
+PyTurboJPEG
+numpy
+pandas
+matplotlib
+efficientnet
+scikit-image
+scikit-learn
+tensorflow-io==0.16.0
+piqa
+fastai
