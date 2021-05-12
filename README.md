@@ -19,7 +19,13 @@ The idea on how to convert an image from black white to a color image can be bro
 - [x] Use pytorch image quality metrics for image quality assements
 - [x] Converted model to onnx for deployment
 - [x] Onnx Inference Script
-- [ ] If time is available move to deployment architecture (FAST API)
+- [x] If time is available move to deployment architecture (FAST API)
+
+# ToDO Clean Up
+- [ ] Upload model
+- [ ] Write out findings
+- [ ] Try to move to specified architecture using nvidia triton
+- [ ] Move preporcessing with a model instead of code 
 
 # Notes
 - As of the current available models pretrained model with autoencoder seems to have better results
