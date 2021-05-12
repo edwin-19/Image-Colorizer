@@ -11,6 +11,11 @@ Download the model and run script
 ```python
 python demo_autoencoder.py -p -m model/effnet_colorizer.h5 -i data/path/to/image
 ```
+or pix2pix (generally more accurate)
+
+```python
+python demo_pix2pix.py -i data/path/to/image
+```
 
 # Intution 
 The idea on how to convert an image from black white to a color image can be broken down to the following steps:
@@ -35,6 +40,7 @@ The idea on how to convert an image from black white to a color image can be bro
 # ToDO Clean Up
 - [x] Upload model drive download links
 - [x] Requirements txt
+- [ ] Add Demo Results
 - [ ] Write out findings
 - [ ] Try to move to specified architecture using nvidia triton
 - [ ] Move preporcessing with a model instead of code 

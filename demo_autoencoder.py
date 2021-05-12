@@ -16,6 +16,7 @@ if __name__ == "__main__":
     parser.add_argument(
         '-m', '--model', default='model/color_autoencode.h5'
     )
+    
     parser.add_argument(
         '-p', '--pretrained_model', default=False, action="store_true"
     )
