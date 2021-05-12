@@ -18,6 +18,7 @@ The idea on how to convert an image from black white to a color image can be bro
 - [x] Train with dynamic unet for pix2pix
 - [x] Use pytorch image quality metrics for image quality assements
 - [x] Converted model to onnx for deployment
+- [x] Onnx Inference Script
 - [ ] If time is available move to deployment architecture (FAST API)
 
 # Notes
