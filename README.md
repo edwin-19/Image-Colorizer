@@ -1,6 +1,9 @@
 # Image Coloring 
 A project to color a black and white image to color using deep learning
 
+# How to run
+
+
 # Intution 
 The idea on how to convert an image from black white to a color image can be broken down to the following steps:
 1) Read Image as RGB
@@ -22,7 +25,8 @@ The idea on how to convert an image from black white to a color image can be bro
 - [x] If time is available move to deployment architecture (FAST API)
 
 # ToDO Clean Up
-- [ ] Upload model
+- [x] Upload model
+- [x] Requirements txt
 - [ ] Write out findings
 - [ ] Try to move to specified architecture using nvidia triton
 - [ ] Move preporcessing with a model instead of code 
@@ -31,6 +35,11 @@ The idea on how to convert an image from black white to a color image can be bro
 - As of the current available models pretrained model with autoencoder seems to have better results
 - Previously though of metrics where eyeballing is unavoidable has changed a bit
 - Need to switch to pytorch for gan model as seems easier to read for now
+
+
+# Models
+You can download the models trained here
+
 
 # Evaluation Score
 | Model              | DISTS Score |
