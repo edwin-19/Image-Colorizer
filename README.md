@@ -7,6 +7,11 @@ First install the neccessary libraries
 pip install -r requirements.txt
 ```
 
+Run script
+```python
+python demo_autoencoder.py -p -m model/effnet_colorizer.h5 -i data/path/to/image
+```
+
 # Intution 
 The idea on how to convert an image from black white to a color image can be broken down to the following steps:
 1) Read Image as RGB
