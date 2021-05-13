@@ -60,7 +60,6 @@ You can download the models trained here
 |---------------------------|------------------|--------------------------------------------------------------------------------------------|
 | Simple AutoEncoder        | None             | [here](https://drive.google.com/file/d/1E9eRsd1rS2hMTbU9viQD46bTthgGvC01/view?usp=sharing) |
 | EffNet Autoencoder        | Efficient Net B3 | [here](https://drive.google.com/file/d/1ChfDyZmpxAGnZTR-WVbYrnzqiPPRBZL0/view?usp=sharing) |
-| Pix2Pix Generator         | None             | [here](https://drive.google.com/file/d/1ddiqpt8knH5rCFqXrOXlOz7Mweq5KI2S/view?usp=sharing) |
 | Unet Pretrained Generator | Resnet 18        | [here](https://drive.google.com/file/d/12IKcMlcCghat8qTbemQLNtEDGKLrlatF/view?usp=sharing) |
 | Unet Finetuned Generator  | Resnet 18        | [here](https://drive.google.com/file/d/1VfZJb5iKdxG4_udOslEJvpWAZUnagQts/view?usp=sharing) |
 
