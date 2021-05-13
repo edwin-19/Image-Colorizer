@@ -44,7 +44,7 @@ The idea on how to convert an image from black white to a color image can be bro
 - [x] Upload model drive download links
 - [x] Requirements txt
 - [x] Add Demo Results
-- [ ] Write out findings
+- [x] Write out findings
 - [ ] Try to move to specified architecture using nvidia triton
 - [ ] Move preporcessing with a model instead of code 
 
