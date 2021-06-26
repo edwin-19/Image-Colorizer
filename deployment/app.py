@@ -11,6 +11,14 @@ import onnxruntime
 sess_options = onnxruntime.SessionOptions()
 sess = onnxruntime.InferenceSession('model/color_gen.onnx', sess_options)
 
+input_name = sess.get_inputs()[0].name
+input_shape = sess.get_inputs()[0].shape
+input_type = sess.get_inputs()[0].type
+
+output_name = sess.get_outputs()[0].name
+output_shape = sess.get_outputs()[0].shape
+output_type = sess.get_outputs()[0].type
+
 @app.post('/')
 async def get_index(file: UploadFile = File(...)):
     contents = await file.read()
